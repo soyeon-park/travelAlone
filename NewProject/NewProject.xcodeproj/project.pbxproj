@@ -14,7 +14,9 @@
 		C222B4DC210ECCCC0074932A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C222B4DA210ECCCC0074932A /* LaunchScreen.storyboard */; };
 		C222B4E7210ECCCC0074932A /* NewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222B4E6210ECCCC0074932A /* NewProjectTests.swift */; };
 		C222B4F2210ECCCC0074932A /* NewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222B4F1210ECCCC0074932A /* NewProjectUITests.swift */; };
-		C222B500210ECD950074932A /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222B4FF210ECD950074932A /* SearchTableViewController.swift */; };
+		C222B53C210EF1ED0074932A /* ChatListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222B53B210EF1ED0074932A /* ChatListTableViewController.swift */; };
+		C258543D21103E4E00F98C09 /* SearchPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258543C21103E4E00F98C09 /* SearchPageTableViewController.swift */; };
+		C258543F21104AD700F98C09 /* 마이페이지.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C258543E21104AD700F98C09 /* 마이페이지.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,9 @@
 		C222B4ED210ECCCC0074932A /* NewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C222B4F1210ECCCC0074932A /* NewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectUITests.swift; sourceTree = "<group>"; };
 		C222B4F3210ECCCC0074932A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C222B4FF210ECD950074932A /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		C222B53B210EF1ED0074932A /* ChatListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTableViewController.swift; sourceTree = "<group>"; };
+		C258543C21103E4E00F98C09 /* SearchPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageTableViewController.swift; sourceTree = "<group>"; };
+		C258543E21104AD700F98C09 /* 마이페이지.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "마이페이지.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				C222B4D1210ECCCC0074932A /* AppDelegate.swift */,
 				C222B4D3210ECCCC0074932A /* ViewController.swift */,
 				C222B4D5210ECCCC0074932A /* Main.storyboard */,
-				C222B4FF210ECD950074932A /* SearchTableViewController.swift */,
+				C258543E21104AD700F98C09 /* 마이페이지.storyboard */,
+				C258543C21103E4E00F98C09 /* SearchPageTableViewController.swift */,
+				C222B53B210EF1ED0074932A /* ChatListTableViewController.swift */,
 				C222B4D8210ECCCC0074932A /* Assets.xcassets */,
 				C222B4DA210ECCCC0074932A /* LaunchScreen.storyboard */,
 				C222B4DD210ECCCC0074932A /* Info.plist */,
@@ -238,6 +244,7 @@
 				C222B4DC210ECCCC0074932A /* LaunchScreen.storyboard in Resources */,
 				C222B4D9210ECCCC0074932A /* Assets.xcassets in Resources */,
 				C222B4D7210ECCCC0074932A /* Main.storyboard in Resources */,
+				C258543F21104AD700F98C09 /* 마이페이지.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C222B4D4210ECCCC0074932A /* ViewController.swift in Sources */,
-				C222B500210ECD950074932A /* SearchTableViewController.swift in Sources */,
+				C222B53C210EF1ED0074932A /* ChatListTableViewController.swift in Sources */,
 				C222B4D2210ECCCC0074932A /* AppDelegate.swift in Sources */,
+				C258543D21103E4E00F98C09 /* SearchPageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
