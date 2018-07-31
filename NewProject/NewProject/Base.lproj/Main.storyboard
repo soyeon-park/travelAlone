@@ -132,16 +132,11 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="lwh-at-7xk">
                         <nil key="title"/>
-                        <view key="titleView" contentMode="scaleToFill" id="pTS-aa-pMK">
-                            <rect key="frame" x="187.5" y="22" width="0.0" height="0.0"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        </view>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5U3-gK-kj5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="585" y="-1446"/>
+            <point key="canvasLocation" x="584.79999999999995" y="-1446.0269865067467"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qdo-PC-H3O">
