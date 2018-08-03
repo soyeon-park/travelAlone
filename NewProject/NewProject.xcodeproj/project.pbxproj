@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042329DB21142906006EEB3C /* myPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042329DA21142906006EEB3C /* myPageViewController.swift */; };
+		0466614B21104D850008F365 /* MyPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466614A21104D850008F365 /* MyPageTableViewController.swift */; };
+		0466614D2110574A0008F365 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466614C2110574A0008F365 /* SettingTableViewController.swift */; };
 		C222B4D2210ECCCC0074932A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222B4D1210ECCCC0074932A /* AppDelegate.swift */; };
 		C222B4D4210ECCCC0074932A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222B4D3210ECCCC0074932A /* ViewController.swift */; };
 		C222B4D7210ECCCC0074932A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C222B4D5210ECCCC0074932A /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042329DA21142906006EEB3C /* myPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageViewController.swift; sourceTree = "<group>"; };
+		0466614A21104D850008F365 /* MyPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTableViewController.swift; sourceTree = "<group>"; };
+		0466614C2110574A0008F365 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		C222B4CE210ECCCC0074932A /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C222B4D1210ECCCC0074932A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C222B4D3210ECCCC0074932A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 				C222B4D3210ECCCC0074932A /* ViewController.swift */,
 				C222B4D5210ECCCC0074932A /* Main.storyboard */,
 				C258543E21104AD700F98C09 /* 마이페이지.storyboard */,
+				042329DA21142906006EEB3C /* myPageViewController.swift */,
+				0466614C2110574A0008F365 /* SettingTableViewController.swift */,
+				0466614A21104D850008F365 /* MyPageTableViewController.swift */,
 				C258543C21103E4E00F98C09 /* SearchPageTableViewController.swift */,
 				C222B53B210EF1ED0074932A /* ChatListTableViewController.swift */,
 				C222B4D8210ECCCC0074932A /* Assets.xcassets */,
@@ -269,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0466614B21104D850008F365 /* MyPageTableViewController.swift in Sources */,
+				042329DB21142906006EEB3C /* myPageViewController.swift in Sources */,
 				C222B4D4210ECCCC0074932A /* ViewController.swift in Sources */,
 				C222B53C210EF1ED0074932A /* ChatListTableViewController.swift in Sources */,
 				C222B4D2210ECCCC0074932A /* AppDelegate.swift in Sources */,
+				0466614D2110574A0008F365 /* SettingTableViewController.swift in Sources */,
 				C258543D21103E4E00F98C09 /* SearchPageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
