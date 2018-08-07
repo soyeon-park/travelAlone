@@ -154,10 +154,10 @@
                                 <rect key="frame" x="16" y="7" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="날짜 설정"/>
-                                <connections>
-                                    <segue destination="JaR-Sw-Ar0" kind="presentation" id="wss-2U-0JE"/>
-                                </connections>
                             </button>
+                            <connections>
+                                <segue destination="JaR-Sw-Ar0" kind="show" id="Aeq-2A-AKN"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="0Z5-kR-x0c">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bqB-21-UXe">
@@ -166,14 +166,14 @@
                                 <state key="normal" title="글쓰기"/>
                             </button>
                             <connections>
-                                <segue destination="fmg-SJ-fdq" kind="presentation" id="5na-op-xEA"/>
+                                <segue destination="fmg-SJ-fdq" kind="show" id="f2F-zv-XC9"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jwT-7v-GFZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-439" y="-1325"/>
+            <point key="canvasLocation" x="-439" y="-1281"/>
         </scene>
         <!--Calendar View Controller-->
         <scene sceneID="2Rc-Jf-s0b">
@@ -203,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S3t-sg-WYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="462" y="-1281"/>
+            <point key="canvasLocation" x="-916" y="-2006"/>
         </scene>
         <!--동행찾기-->
         <scene sceneID="4xC-Wk-18C">
@@ -222,7 +222,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TJC-RM-tdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1362" y="-1325"/>
+            <point key="canvasLocation" x="-1132" y="-1257"/>
         </scene>
         <!--대화목록-->
         <scene sceneID="jf4-gc-hIq">
@@ -241,7 +241,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y4j-PO-i59" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1362" y="-569"/>
+            <point key="canvasLocation" x="-1132" y="-571"/>
         </scene>
         <!--Seeting Table View Controller-->
         <scene sceneID="IUU-9K-hEJ">
@@ -278,7 +278,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jmm-x1-zXg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="572" y="143"/>
+            <point key="canvasLocation" x="273" y="143"/>
         </scene>
         <!--My page-->
         <scene sceneID="f3J-5Z-cr2">
@@ -297,7 +297,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gjk-4f-kg0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1362" y="144"/>
+            <point key="canvasLocation" x="-1132" y="143"/>
         </scene>
         <!--My Page-->
         <scene sceneID="fpE-SV-egu">
@@ -403,7 +403,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="81J-OE-nem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="572" y="787"/>
+            <point key="canvasLocation" x="-439" y="265"/>
         </scene>
         <!--Upload View Controller-->
         <scene sceneID="r6G-sD-DN0">
@@ -451,7 +451,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Edit"/>
                                         <connections>
-                                            <segue destination="uyP-iV-Dos" kind="presentation" id="hSB-uI-avB"/>
+                                            <segue destination="uyP-iV-Dos" kind="presentation" id="o7P-Pe-Acx"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="도시" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLC-pe-CBq">
@@ -530,7 +530,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bem-9d-6Lf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="864.79999999999995" y="-1977.6611694152925"/>
+            <point key="canvasLocation" x="-222" y="-2006"/>
         </scene>
         <!--City Select View Controller-->
         <scene sceneID="seV-EH-SZX">
@@ -577,7 +577,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="취소"/>
                                 <connections>
-                                    <action selector="modalDismiss:" destination="uyP-iV-Dos" eventType="touchUpInside" id="P8e-cp-6Vp"/>
+                                    <action selector="modalDismiss:" destination="uyP-iV-Dos" eventType="touchUpInside" id="SNd-nD-qpl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -587,7 +587,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YAJ-GG-uUx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1881" y="-2031"/>
+            <point key="canvasLocation" x="497" y="-2006"/>
         </scene>
         <!--상대방 ID-->
         <scene sceneID="8DY-FZ-9M6">
@@ -621,7 +621,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sv1-IG-ZaN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="597.60000000000002" y="-618.44077961019491"/>
+            <point key="canvasLocation" x="273" y="-572"/>
         </scene>
     </scenes>
     <resources>

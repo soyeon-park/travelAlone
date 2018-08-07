@@ -40,7 +40,7 @@ var California = City(name: "미서부", nation: "미국")
 var Paris = City(name: "파리", nation: "프랑스")
 
 var User1 = User(ID: "YS0514", age: 21, gender: "female" , selfintro: "Hi")
-var Post1 = Post(poster: User1, title: "미국 서부 로드트립 같이 하실 분들 구해요", destination: California, memo: "9.14-9.28")
+var Post1 = Post(poster: User1, title: "9월 몽골 투어", destination: California, memo: "9.14-9.28")
 var User2 = User(ID: "KK505", age: 28, gender: "male", selfintro: "hello")
 var Post2 = Post(poster: User2, title: "HI", destination: Paris, memo: "Party people~~~~~~~~~~~~~~~~~")
 
