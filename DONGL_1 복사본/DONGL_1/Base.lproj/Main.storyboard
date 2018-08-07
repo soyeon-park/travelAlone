@@ -156,7 +156,7 @@
                                 <state key="normal" title="날짜 설정"/>
                             </button>
                             <connections>
-                                <segue destination="JaR-Sw-Ar0" kind="show" id="Aeq-2A-AKN"/>
+                                <segue destination="JaR-Sw-Ar0" kind="presentation" id="5T7-w8-ETb"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="0Z5-kR-x0c">
@@ -166,7 +166,7 @@
                                 <state key="normal" title="글쓰기"/>
                             </button>
                             <connections>
-                                <segue destination="fmg-SJ-fdq" kind="show" id="f2F-zv-XC9"/>
+                                <segue destination="fmg-SJ-fdq" kind="presentation" id="Tr5-NB-ft0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -243,10 +243,10 @@
             </objects>
             <point key="canvasLocation" x="-1132" y="-571"/>
         </scene>
-        <!--Seeting Table View Controller-->
+        <!--Setting Table View Controller-->
         <scene sceneID="IUU-9K-hEJ">
             <objects>
-                <tableViewController id="D9d-et-EnZ" customClass="SeetingTableViewController" customModule="DONGL_1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="D9d-et-EnZ" customClass="SettingTableViewController" customModule="DONGL_1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6DC-3g-zcu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
