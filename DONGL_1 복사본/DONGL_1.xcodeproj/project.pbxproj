@@ -13,6 +13,7 @@
 		C2E47EB0211967F500EF3CF2 /* MyPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E47EAF211967F400EF3CF2 /* MyPageTableViewController.swift */; };
 		C2E47EB2211967FE00EF3CF2 /* myPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E47EB1211967FE00EF3CF2 /* myPageViewController.swift */; };
 		C2E47EB42119680400EF3CF2 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E47EB32119680300EF3CF2 /* SettingTableViewController.swift */; };
+		C2E47EB82119845B00EF3CF2 /* CitySelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E47EB72119845B00EF3CF2 /* CitySelectViewController.swift */; };
 		C2FE35122114214100EFB3F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE35112114214100EFB3F8 /* AppDelegate.swift */; };
 		C2FE35142114214100EFB3F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE35132114214100EFB3F8 /* ViewController.swift */; };
 		C2FE35172114214100EFB3F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FE35152114214100EFB3F8 /* Main.storyboard */; };
@@ -69,6 +70,7 @@
 		C2E47EAF211967F400EF3CF2 /* MyPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageTableViewController.swift; sourceTree = "<group>"; };
 		C2E47EB1211967FE00EF3CF2 /* myPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPageViewController.swift; sourceTree = "<group>"; };
 		C2E47EB32119680300EF3CF2 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		C2E47EB72119845B00EF3CF2 /* CitySelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitySelectViewController.swift; sourceTree = "<group>"; };
 		C2FE350E2114214100EFB3F8 /* DONGL_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DONGL_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FE35112114214100EFB3F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2FE35132114214100EFB3F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				C2FE35152114214100EFB3F8 /* Main.storyboard */,
 				C2E47EAB211967C300EF3CF2 /* 대화목록.storyboard */,
 				C2E47EAD211967C700EF3CF2 /* 마이페이지.storyboard */,
+				C2E47EB72119845B00EF3CF2 /* CitySelectViewController.swift */,
 				C2FE35472114236300EFB3F8 /* FSCalendar */,
 				C2FE353F211421EB00EFB3F8 /* SearchTableViewController.swift */,
 				C2C2B83A2119584000E43D25 /* PostTableViewCell.swift */,
@@ -391,6 +394,7 @@
 			files = (
 				C2E47EB42119680400EF3CF2 /* SettingTableViewController.swift in Sources */,
 				C2FE357D2114267200EFB3F8 /* CalendarViewController.swift in Sources */,
+				C2E47EB82119845B00EF3CF2 /* CitySelectViewController.swift in Sources */,
 				C2FE35702114236300EFB3F8 /* FSCalendarConstants.m in Sources */,
 				C2FE35142114214100EFB3F8 /* ViewController.swift in Sources */,
 				C2FE35462114230100EFB3F8 /* TalkTableViewCell.swift in Sources */,
