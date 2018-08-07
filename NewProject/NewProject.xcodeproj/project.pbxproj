@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		042329DB21142906006EEB3C /* myPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042329DA21142906006EEB3C /* myPageViewController.swift */; };
+		042329DD21143108006EEB3C /* 대화목록.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042329DC21143108006EEB3C /* 대화목록.storyboard */; };
 		0466614B21104D850008F365 /* MyPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466614A21104D850008F365 /* MyPageTableViewController.swift */; };
 		0466614D2110574A0008F365 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466614C2110574A0008F365 /* SettingTableViewController.swift */; };
 		C222B4D2210ECCCC0074932A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222B4D1210ECCCC0074932A /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		042329DA21142906006EEB3C /* myPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageViewController.swift; sourceTree = "<group>"; };
+		042329DC21143108006EEB3C /* 대화목록.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "대화목록.storyboard"; sourceTree = "<group>"; };
 		0466614A21104D850008F365 /* MyPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTableViewController.swift; sourceTree = "<group>"; };
 		0466614C2110574A0008F365 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		C222B4CE210ECCCC0074932A /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				C222B4D8210ECCCC0074932A /* Assets.xcassets */,
 				C222B4DA210ECCCC0074932A /* LaunchScreen.storyboard */,
 				C222B4DD210ECCCC0074932A /* Info.plist */,
+				042329DC21143108006EEB3C /* 대화목록.storyboard */,
 			);
 			path = NewProject;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				C222B4DC210ECCCC0074932A /* LaunchScreen.storyboard in Resources */,
 				C222B4D9210ECCCC0074932A /* Assets.xcassets in Resources */,
 				C222B4D7210ECCCC0074932A /* Main.storyboard in Resources */,
+				042329DD21143108006EEB3C /* 대화목록.storyboard in Resources */,
 				C258543F21104AD700F98C09 /* 마이페이지.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

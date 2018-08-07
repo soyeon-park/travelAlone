@@ -22,11 +22,15 @@ class myPageViewController: UIViewController {
     @IBOutlet weak var UserID: UILabel!
     @IBOutlet weak var UserSNSAccount: UILabel!
     @IBOutlet weak var UserComment: UILabel!
-
+    @IBOutlet weak var profileImage: UIImageView!
+    
     override func viewWillAppear(_ animated: Bool) {
         UserID.text = Userdata.UserID
         UserSNSAccount.text = Userdata.UserSNSAccount
         UserComment.text = Userdata.UserComment
+        
+        profileImage.image = UIImage(named: Userdata.profileImage)
+        
     }
     
     
