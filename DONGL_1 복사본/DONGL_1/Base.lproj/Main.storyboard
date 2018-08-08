@@ -21,8 +21,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="aZZ-Ja-Jup" kind="relationship" relationship="viewControllers" id="aLO-fP-9Lm"/>
-                        <segue destination="i8G-AT-mk9" kind="relationship" relationship="viewControllers" id="fJ3-3H-BVp"/>
                         <segue destination="Xe1-J7-Sv8" kind="relationship" relationship="viewControllers" id="zO2-dL-utq"/>
+                        <segue destination="i8G-AT-mk9" kind="relationship" relationship="viewControllers" id="fJ3-3H-BVp"/>
                         <segue destination="pNo-hx-5M4" kind="relationship" relationship="viewControllers" id="4ZX-5U-dON"/>
                     </connections>
                 </tabBarController>
