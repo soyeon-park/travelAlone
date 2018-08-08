@@ -41,7 +41,6 @@
 		C2FE35792114236300EFB3F8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FE35682114236300EFB3F8 /* Info.plist */; };
 		C2FE357B2114247800EFB3F8 /* UIViewControllerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE357A2114247800EFB3F8 /* UIViewControllerModal.swift */; };
 		C2FE357D2114267200EFB3F8 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE357C2114267200EFB3F8 /* CalendarViewController.swift */; };
-		C2FE357F2114267A00EFB3F8 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE357E2114267A00EFB3F8 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,7 +117,6 @@
 		C2FE35682114236300EFB3F8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2FE357A2114247800EFB3F8 /* UIViewControllerModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerModal.swift; sourceTree = "<group>"; };
 		C2FE357C2114267200EFB3F8 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		C2FE357E2114267A00EFB3F8 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +173,6 @@
 				C2FE35152114214100EFB3F8 /* Main.storyboard */,
 				C2FE35472114236300EFB3F8 /* FSCalendar */,
 				C2FE353F211421EB00EFB3F8 /* SearchTableViewController.swift */,
-				C2FE357E2114267A00EFB3F8 /* UploadViewController.swift */,
 				C2C2B83A2119584000E43D25 /* PostTableViewCell.swift */,
 				C2FE357C2114267200EFB3F8 /* CalendarViewController.swift */,
 				C2FE3541211421FD00EFB3F8 /* TalkTableViewController.swift */,
@@ -398,7 +395,6 @@
 				C2FE35762114236300EFB3F8 /* FSCalendarStickyHeader.m in Sources */,
 				C2FE3540211421EB00EFB3F8 /* SearchTableViewController.swift in Sources */,
 				C2FE35722114236300EFB3F8 /* FSCalendarDelegationProxy.m in Sources */,
-				C2FE357F2114267A00EFB3F8 /* UploadViewController.swift in Sources */,
 				C2FE35772114236300EFB3F8 /* FSCalendarTransitionCoordinator.m in Sources */,
 				C2FE356C2114236300EFB3F8 /* FSCalendarCalculator.m in Sources */,
 				C2FE356E2114236300EFB3F8 /* FSCalendarCollectionView.m in Sources */,
