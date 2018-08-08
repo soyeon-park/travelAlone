@@ -10,12 +10,10 @@ import UIKit
 
 class UploadPostTableViewCell: UITableViewCell {
 
-    @IBAction func UploadButton(_ sender: Any) {
-    }
+   
     @IBOutlet weak var NoteTextField: UITextView!
     @IBOutlet weak var TravelDate: UILabel!
     @IBOutlet weak var TravelCity: UILabel!
-    @IBOutlet weak var Schedule: UILabel!
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var title: UILabel!
     override func awakeFromNib() {
