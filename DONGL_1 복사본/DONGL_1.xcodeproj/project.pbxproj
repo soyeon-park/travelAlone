@@ -12,7 +12,7 @@
 		C2E47EB2211967FE00EF3CF2 /* myPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E47EB1211967FE00EF3CF2 /* myPageViewController.swift */; };
 		C2E47EB42119680400EF3CF2 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E47EB32119680300EF3CF2 /* SettingTableViewController.swift */; };
 		C2E47EB82119845B00EF3CF2 /* CitySelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E47EB72119845B00EF3CF2 /* CitySelectViewController.swift */; };
-		C2F5048D211ADBA5007E1493 /* UploadPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5048C211ADBA5007E1493 /* UploadPostTableViewCell.swift */; };
+		C2F5048F211AE1EF007E1493 /* UploadPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5048E211AE1EF007E1493 /* UploadPostTableViewCell.swift */; };
 		C2F62AA7211AD24A00D12705 /* UploadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F62AA6211AD24A00D12705 /* UploadTableViewController.swift */; };
 		C2FE35122114214100EFB3F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE35112114214100EFB3F8 /* AppDelegate.swift */; };
 		C2FE35142114214100EFB3F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE35132114214100EFB3F8 /* ViewController.swift */; };
@@ -68,7 +68,7 @@
 		C2E47EB1211967FE00EF3CF2 /* myPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPageViewController.swift; sourceTree = "<group>"; };
 		C2E47EB32119680300EF3CF2 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		C2E47EB72119845B00EF3CF2 /* CitySelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitySelectViewController.swift; sourceTree = "<group>"; };
-		C2F5048C211ADBA5007E1493 /* UploadPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostTableViewCell.swift; sourceTree = "<group>"; };
+		C2F5048E211AE1EF007E1493 /* UploadPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostTableViewCell.swift; sourceTree = "<group>"; };
 		C2F62AA6211AD24A00D12705 /* UploadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTableViewController.swift; sourceTree = "<group>"; };
 		C2FE350E2114214100EFB3F8 /* DONGL_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DONGL_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FE35112114214100EFB3F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 				C2FE35152114214100EFB3F8 /* Main.storyboard */,
 				C2FE35472114236300EFB3F8 /* FSCalendar */,
 				C2FE353F211421EB00EFB3F8 /* SearchTableViewController.swift */,
-				C2F5048C211ADBA5007E1493 /* UploadPostTableViewCell.swift */,
+				C2F5048E211AE1EF007E1493 /* UploadPostTableViewCell.swift */,
 				C2F62AA6211AD24A00D12705 /* UploadTableViewController.swift */,
 				C2C2B83A2119584000E43D25 /* PostTableViewCell.swift */,
 				C2FE357C2114267200EFB3F8 /* CalendarViewController.swift */,
@@ -403,7 +403,7 @@
 				C2FE3540211421EB00EFB3F8 /* SearchTableViewController.swift in Sources */,
 				C2FE35722114236300EFB3F8 /* FSCalendarDelegationProxy.m in Sources */,
 				C2FE35772114236300EFB3F8 /* FSCalendarTransitionCoordinator.m in Sources */,
-				C2F5048D211ADBA5007E1493 /* UploadPostTableViewCell.swift in Sources */,
+				C2F5048F211AE1EF007E1493 /* UploadPostTableViewCell.swift in Sources */,
 				C2FE356C2114236300EFB3F8 /* FSCalendarCalculator.m in Sources */,
 				C2FE356E2114236300EFB3F8 /* FSCalendarCollectionView.m in Sources */,
 				C2FE35732114236300EFB3F8 /* FSCalendarExtensions.m in Sources */,

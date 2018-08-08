@@ -10,17 +10,20 @@ import UIKit
 
 class UploadPostTableViewCell: UITableViewCell {
 
-   
-    @IBOutlet weak var NoteTextField: UITextView!
-    @IBOutlet weak var TravelDate: UILabel!
-    @IBOutlet weak var TravelCity: UILabel!
-    @IBOutlet weak var titleTextField: UITextField!
+    @IBOutlet weak var printCity: UILabel!
+    @IBAction func UploadButton(_ sender: Any) {
+    }
+    @IBOutlet weak var printDate: UILabel!
+    @IBOutlet weak var notefield: UITextView!
+    @IBOutlet weak var date: UILabel!
+    @IBOutlet weak var city: UILabel!
     @IBOutlet weak var title: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
+    @IBOutlet weak var titleField: UITextField!
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
