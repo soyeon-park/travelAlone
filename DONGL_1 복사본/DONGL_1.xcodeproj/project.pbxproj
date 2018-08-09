@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C209A17F211BF9A6007A2E15 /* UploadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C209A17E211BF9A6007A2E15 /* UploadTableViewController.swift */; };
+		C209A181211BF9C8007A2E15 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C209A180211BF9C8007A2E15 /* PostViewController.swift */; };
 		C2C2B83B2119584000E43D25 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C2B83A2119584000E43D25 /* PostTableViewCell.swift */; };
 		C2E47EB0211967F500EF3CF2 /* MyPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E47EAF211967F400EF3CF2 /* MyPageTableViewController.swift */; };
 		C2E47EB2211967FE00EF3CF2 /* myPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E47EB1211967FE00EF3CF2 /* myPageViewController.swift */; };
@@ -61,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C209A17E211BF9A6007A2E15 /* UploadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTableViewController.swift; sourceTree = "<group>"; };
+		C209A180211BF9C8007A2E15 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		C2C2B83A2119584000E43D25 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		C2E47EAF211967F400EF3CF2 /* MyPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageTableViewController.swift; sourceTree = "<group>"; };
 		C2E47EB1211967FE00EF3CF2 /* myPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPageViewController.swift; sourceTree = "<group>"; };
@@ -174,7 +178,10 @@
 				C2FE35472114236300EFB3F8 /* FSCalendar */,
 				C2FE353F211421EB00EFB3F8 /* SearchTableViewController.swift */,
 				C2C2B83A2119584000E43D25 /* PostTableViewCell.swift */,
+				C209A17E211BF9A6007A2E15 /* UploadTableViewController.swift */,
+				C209A180211BF9C8007A2E15 /* PostViewController.swift */,
 				C2FE357C2114267200EFB3F8 /* CalendarViewController.swift */,
+				C2E47EB72119845B00EF3CF2 /* CitySelectViewController.swift */,
 				C2FE3541211421FD00EFB3F8 /* TalkTableViewController.swift */,
 				C2FE35452114230100EFB3F8 /* TalkTableViewCell.swift */,
 				C2E47EAF211967F400EF3CF2 /* MyPageTableViewController.swift */,
@@ -208,7 +215,6 @@
 		C2FE35472114236300EFB3F8 /* FSCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				C2E47EB72119845B00EF3CF2 /* CitySelectViewController.swift */,
 				C2FE35482114236300EFB3F8 /* FSCalendar+Deprecated.m */,
 				C2FE35492114236300EFB3F8 /* FSCalendar.h */,
 				C2FE354A2114236300EFB3F8 /* FSCalendar.m */,
@@ -383,6 +389,7 @@
 			files = (
 				C2E47EB42119680400EF3CF2 /* SettingTableViewController.swift in Sources */,
 				C2FE357D2114267200EFB3F8 /* CalendarViewController.swift in Sources */,
+				C209A17F211BF9A6007A2E15 /* UploadTableViewController.swift in Sources */,
 				C2E47EB82119845B00EF3CF2 /* CitySelectViewController.swift in Sources */,
 				C2FE35702114236300EFB3F8 /* FSCalendarConstants.m in Sources */,
 				C2FE35142114214100EFB3F8 /* ViewController.swift in Sources */,
@@ -404,6 +411,7 @@
 				C2FE35692114236300EFB3F8 /* FSCalendar+Deprecated.m in Sources */,
 				C2FE35752114236300EFB3F8 /* FSCalendarScopeHandle.m in Sources */,
 				C2E47EB2211967FE00EF3CF2 /* myPageViewController.swift in Sources */,
+				C209A181211BF9C8007A2E15 /* PostViewController.swift in Sources */,
 				C2FE356D2114236300EFB3F8 /* FSCalendarCell.m in Sources */,
 				C2FE35122114214100EFB3F8 /* AppDelegate.swift in Sources */,
 				C2FE35712114236300EFB3F8 /* FSCalendarDelegationFactory.m in Sources */,
