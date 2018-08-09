@@ -15,6 +15,7 @@ class PostViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     @IBOutlet weak var postTableView: UITableView!
     
+
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return postList.count
