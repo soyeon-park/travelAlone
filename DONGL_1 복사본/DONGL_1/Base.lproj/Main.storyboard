@@ -594,4 +594,5 @@
         <image name="userimage" width="200" height="200"/>
         <image name="write_grey" width="28" height="30"/>
     </resources>
+    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
