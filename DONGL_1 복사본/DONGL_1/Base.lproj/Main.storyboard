@@ -440,7 +440,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="My Page" id="uVz-RI-R2V">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="settings" id="JMq-p9-KKp">
-                            <color key="tintColor" red="0.66068672839999998" green="0.86700665509999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="D9d-et-EnZ" kind="show" id="8kl-xE-7gg"/>
                             </connections>
