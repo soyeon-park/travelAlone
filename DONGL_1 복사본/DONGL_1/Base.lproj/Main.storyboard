@@ -185,7 +185,7 @@
         <scene sceneID="4xC-Wk-18C">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aZZ-Ja-Jup" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="동행찾기" id="Aly-Or-OD3"/>
+                    <tabBarItem key="tabBarItem" title="동행찾기" image="search_grey" id="Aly-Or-OD3"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Pv-pw-rh0">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -204,7 +204,7 @@
         <scene sceneID="jf4-gc-hIq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i8G-AT-mk9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="대화목록" id="z0W-Ri-ZGI"/>
+                    <tabBarItem key="tabBarItem" title="대화목록" image="message_grey" id="z0W-Ri-ZGI"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dv1-Tf-o9M">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -267,7 +267,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="IwW-Xc-LUb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="글쓰기" id="zC4-9L-Yhd"/>
+                    <tabBarItem key="tabBarItem" title="글쓰기" image="write_grey" id="zC4-9L-Yhd"/>
                     <connections>
                         <outlet property="CityandDate" destination="Suk-Ci-kvc" id="7o3-7u-OqO"/>
                         <outlet property="noteField" destination="HFk-zk-Cw8" id="dCp-Pl-6yw"/>
@@ -364,7 +364,7 @@
         <scene sceneID="f3J-5Z-cr2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pNo-hx-5M4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My page" image="settings" id="n5o-UA-DnR"/>
+                    <tabBarItem key="tabBarItem" title="My page" image="mypage_grey" id="n5o-UA-DnR"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="liQ-2h-0Wa">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -587,7 +587,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="message_grey" width="36" height="26"/>
+        <image name="mypage_grey" width="30" height="30"/>
+        <image name="search_grey" width="30" height="30"/>
         <image name="settings" width="25" height="25"/>
         <image name="userimage" width="200" height="200"/>
+        <image name="write_grey" width="28" height="30"/>
     </resources>
 </document>
