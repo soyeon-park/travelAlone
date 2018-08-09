@@ -11,6 +11,14 @@ import UIKit
 
 let searchController = UISearchController(searchResultsController: nil)
 
+struct Post {
+    var poster: User
+    var title: String
+    var destination: City
+    var memo: String
+    
+}
+
 var filteredResults = [Post]()
 
 struct User {
@@ -25,13 +33,7 @@ struct City {
     var nation: String
 }
 
-struct Post {
-    var poster: User
-    var title: String
-    var destination: City
-    var memo: String
 
-}
 
 var users: [User] = [User1, User2]
 var posts: [Post] = [Post1, Post2]
@@ -117,7 +119,7 @@ class SearchTableViewController: UITableViewController {
             // Delete the row from the data source
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table viewd
         }    
     }
     */

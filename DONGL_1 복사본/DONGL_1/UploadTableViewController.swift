@@ -2,18 +2,17 @@
 //  UploadTableViewController.swift
 //  DONGL_1
 //
-//  Created by 방문사용자 on 2018. 8. 8..
+//  Created by 방문사용자 on 2018. 8. 9..
 //  Copyright © 2018년 HHBS. All rights reserved.
 //
 
 import UIKit
 
+
 class UploadTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,27 +20,24 @@ class UploadTableViewController: UITableViewController {
     }
 
 
+
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 2
     }
 
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
-    }
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TitleCell", for: indexPath) as! UploadPostTableViewCell
-            cell.title?.text = "제목"
-        cell.titleField?.text = "글 제목을 입력하세요"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cityCell", for: indexPath)
+        
         return cell
     }
- 
     
+
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
